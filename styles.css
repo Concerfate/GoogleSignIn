@@ -1,0 +1,155 @@
+/* General Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #202124;
+    color: #e8eaed;
+}
+
+/* Background */
+.background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+/* Sign-In Card */
+.sign-in-card {
+    background-color: #303134;
+    border-radius: 12px;
+    padding: 40px 32px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+    max-width: 450px;
+    text-align: left;
+    width: 100%;
+}
+
+/* Google Logo */
+.google-logo {
+    width: 80px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+/* Title and Subtitle */
+.title {
+    font-size: 24px;
+    font-weight: 400;
+    color: #e8eaed;
+    margin: 0 0 10px;
+}
+
+.subtitle {
+    font-size: 16px;
+    margin: 0 0 20px;
+    color: #e8eaed;
+}
+
+/* Input Group */
+.input-group {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+    border: 1px solid #5f6368;
+    border-radius: 4px;
+    background-color: #202124;
+    color: #e8eaed;
+    box-sizing: border-box;
+    outline: none;
+}
+
+input[type="email"]:focus {
+    border-color: #8ab4f8;
+}
+
+/* Forgot Email Link */
+.forgot-link {
+    font-size: 14px;
+    color: #8ab4f8;
+    text-decoration: none;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.forgot-link:hover {
+    text-decoration: underline;
+}
+
+/* Info Section */
+.info {
+    font-size: 12px;
+    color: #e8eaed;
+    margin: 10px 0 20px;
+}
+
+.learn-more-link {
+    color: #8ab4f8;
+    text-decoration: none;
+}
+
+.learn-more-link:hover {
+    text-decoration: underline;
+}
+
+/* Actions */
+.actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.create-account {
+    font-size: 14px;
+    color: #8ab4f8;
+    text-decoration: none;
+}
+
+.create-account:hover {
+    text-decoration: underline;
+}
+
+.next-button {
+    background-color: #1a73e8;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 24px;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.next-button:hover {
+    background-color: #1558b3;
+}
+
+/* Footer */
+.footer {
+    margin-top: 30px;
+    font-size: 12px;
+    text-align: center;
+    color: #e8eaed;
+}
+
+.footer-links {
+    margin-top: 5px;
+}
+
+.footer-links a {
+    color: #8ab4f8;
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
